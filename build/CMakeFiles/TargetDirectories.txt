@@ -1,0 +1,3 @@
+/home/kyhjonathan/montecarlo/build/CMakeFiles/montecarlo.dir
+/home/kyhjonathan/montecarlo/build/CMakeFiles/edit_cache.dir
+/home/kyhjonathan/montecarlo/build/CMakeFiles/rebuild_cache.dir
