@@ -129,6 +129,30 @@ montecarlo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/build
 .PHONY : montecarlo/fast
 
+src/ema_crossover.o: src/ema_crossover.cpp.o
+.PHONY : src/ema_crossover.o
+
+# target to build an object file
+src/ema_crossover.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o
+.PHONY : src/ema_crossover.cpp.o
+
+src/ema_crossover.i: src/ema_crossover.cpp.i
+.PHONY : src/ema_crossover.i
+
+# target to preprocess a source file
+src/ema_crossover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.i
+.PHONY : src/ema_crossover.cpp.i
+
+src/ema_crossover.s: src/ema_crossover.cpp.s
+.PHONY : src/ema_crossover.s
+
+# target to generate assembly for a file
+src/ema_crossover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.s
+.PHONY : src/ema_crossover.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... montecarlo"
+	@echo "... src/ema_crossover.o"
+	@echo "... src/ema_crossover.i"
+	@echo "... src/ema_crossover.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

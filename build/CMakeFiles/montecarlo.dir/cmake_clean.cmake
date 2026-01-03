@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o"
+  "CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o.d"
   "CMakeFiles/montecarlo.dir/src/main.cpp.o"
   "CMakeFiles/montecarlo.dir/src/main.cpp.o.d"
   "montecarlo"

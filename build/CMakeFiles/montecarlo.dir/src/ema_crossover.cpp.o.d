@@ -1,5 +1,6 @@
-CMakeFiles/montecarlo.dir/src/main.cpp.o: \
- /home/kyhjonathan/montecarlo/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o: \
+ /home/kyhjonathan/montecarlo/src/ema_crossover.cpp \
+ /usr/include/stdc-predef.h \
  /home/kyhjonathan/montecarlo/src/ema_crossover.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
