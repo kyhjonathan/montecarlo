@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/montecarlo.dir/src/main.cpp.o CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o -o montecarlo 
+/usr/bin/c++ CMakeFiles/montecarlo.dir/src/main.cpp.o CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.o -o montecarlo 

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kyhjonathan/montecarlo/src/ema_crossover.cpp" "CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o" "gcc" "CMakeFiles/montecarlo.dir/src/ema_crossover.cpp.o.d"
   "/home/kyhjonathan/montecarlo/src/main.cpp" "CMakeFiles/montecarlo.dir/src/main.cpp.o" "gcc" "CMakeFiles/montecarlo.dir/src/main.cpp.o.d"
+  "/home/kyhjonathan/montecarlo/src/stock_price_simulator.cpp" "CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.o" "gcc" "CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.o.d"
   )
 
 # Targets to which this target links.

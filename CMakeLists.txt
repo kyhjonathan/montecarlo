@@ -11,4 +11,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(montecarlo
     src/main.cpp
     src/ema_crossover.cpp
+    src/stock_price_simulator.cpp
 )

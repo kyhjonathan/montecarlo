@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/stock_price_simulator.o: src/stock_price_simulator.cpp.o
+.PHONY : src/stock_price_simulator.o
+
+# target to build an object file
+src/stock_price_simulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.o
+.PHONY : src/stock_price_simulator.cpp.o
+
+src/stock_price_simulator.i: src/stock_price_simulator.cpp.i
+.PHONY : src/stock_price_simulator.i
+
+# target to preprocess a source file
+src/stock_price_simulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.i
+.PHONY : src/stock_price_simulator.cpp.i
+
+src/stock_price_simulator.s: src/stock_price_simulator.cpp.s
+.PHONY : src/stock_price_simulator.s
+
+# target to generate assembly for a file
+src/stock_price_simulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/src/stock_price_simulator.cpp.s
+.PHONY : src/stock_price_simulator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/stock_price_simulator.o"
+	@echo "... src/stock_price_simulator.i"
+	@echo "... src/stock_price_simulator.s"
 .PHONY : help
 
 
